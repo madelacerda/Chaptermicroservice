@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ChapterModule } from './chapter/chapter.module';
-import { Chapter } from './chapter/chapter.entity';
+import { Chapter } from './chapter/entities/chapter.entity';
 
 @Module({
   imports: [

@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ChapterController } from './chapter.controller';
 import { ChapterService } from './chapter.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Chapter } from './chapter.entity';
+import { Chapter } from './entities/chapter.entity';
 
 @Module({
   controllers: [ChapterController],
